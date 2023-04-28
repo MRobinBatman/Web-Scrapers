@@ -6,3 +6,6 @@ This is a beautifulsoup4 scraper that goes to a website to scrape current sale p
 
 ## Upwork Scraper
 This is a jsoup scraper that goes to the job board for web-scraping on the popular website 'Upwork' and returns a json of the data it collects from the postings there.
+
+## USC Football Scraper
+This is a Python web scraper designed to collect statistics for the USC football team for the year 2020 from the website sports-reference.com. The script uses the BeautifulSoup library to extract data from the website and the Pandas library to organize the data into a table format. The output is saved as a CSV file named usc_football_stats.csv. The user can modify the school variable to scrape data for a different college football team.
