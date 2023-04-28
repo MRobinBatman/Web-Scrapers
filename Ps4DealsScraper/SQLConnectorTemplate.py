@@ -21,7 +21,7 @@ def create_connection(ip_addr,user_name,user_password,ip_port,dB):
     except Error as e:
         print(f"The error '{e}' occurred")
     return connection
-# connection = create_connection("192.168.1.67","root","Franky",49155,"`scrapingDB1`")
+# connection = create_connection("IPADDR","USERNAME","PASSWORD",PORT,"DATABASE")
 
 def execute_query(connection, query):
     cursor = connection.cursor()
