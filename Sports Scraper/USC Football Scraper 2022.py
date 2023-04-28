@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 This is a web scraper made to collect some of the statistics for the
-USC football team, for the year 2020.
+USC football team, for the year 2022.
 """
 
 import re
@@ -63,3 +63,5 @@ df = df.transpose() #change me to swap columns and rows
 df.to_csv('usc_football_stats.csv', index=True)
 
 #to get the attribute: offense['data-stat']
+
+ 
